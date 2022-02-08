@@ -48,7 +48,7 @@ fi
 
 if [ "$JABBA_VERSION" == "latest" ]; then
     # resolving "latest" to an actual tag
-    JABBA_VERSION=$($JABBA_GET https://Mythical-Forest-Collective.github.io/jabba/latest)
+    JABBA_VERSION=$($JABBA_GET https://github.com/Mythical-Forest-Collective/jabba/releases/download/0.11.2/jabba-0.11.2-$OSTYPE-$OSARCH)
 fi
 
 # http://semver.org/spec/v2.0.0.html
