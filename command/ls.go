@@ -2,8 +2,8 @@ package command
 
 import (
 	"fmt"
-	"github.com/shyiko/jabba/cfg"
-	"github.com/shyiko/jabba/semver"
+	"github.com/Mythical-Forest-Collective/jabba/cfg"
+	"github.com/Mythical-Forest-Collective/jabba/semver"
 	"io/ioutil"
 	"os"
 	"path/filepath"

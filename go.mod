@@ -1,4 +1,4 @@
-module github.com/shyiko/jabba
+module github.com/Mythical-Forest-Collective/jabba
 
 go 1.15
 

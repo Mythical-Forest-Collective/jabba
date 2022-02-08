@@ -15,8 +15,8 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	rootcerts "github.com/hashicorp/go-rootcerts"
-	"github.com/shyiko/jabba/command"
-	"github.com/shyiko/jabba/semver"
+	"github.com/Mythical-Forest-Collective/jabba/command"
+	"github.com/Mythical-Forest-Collective/jabba/semver"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )
@@ -56,7 +56,7 @@ func (f *simpleFormatter) Format(entry *log.Entry) ([]byte, error) {
 func main() {
 	rootCmd = &cobra.Command{
 		Use:  "jabba",
-		Long: "Java Version Manager (https://github.com/shyiko/jabba).",
+		Long: "Java Version Manager (https://github.com/Mythical-Forest-Collective/jabba).",
 		RunE: func(cmd *cobra.Command, args []string) error {
 			if showVersion, _ := cmd.Flags().GetBool("version"); !showVersion {
 				return pflag.ErrHelp

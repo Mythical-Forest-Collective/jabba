@@ -8,10 +8,10 @@ import (
 	"fmt"
 	log "github.com/Sirupsen/logrus"
 	"github.com/mitchellh/ioprogress"
-	"github.com/shyiko/jabba/cfg"
-	"github.com/shyiko/jabba/command/fileiter"
-	"github.com/shyiko/jabba/semver"
-	"github.com/shyiko/jabba/w32"
+	"github.com/Mythical-Forest-Collective/jabba/cfg"
+	"github.com/Mythical-Forest-Collective/jabba/command/fileiter"
+	"github.com/Mythical-Forest-Collective/jabba/semver"
+	"github.com/Mythical-Forest-Collective/jabba/w32"
 	"github.com/xi2/xz"
 	"io"
 	"io/ioutil"
@@ -323,7 +323,7 @@ func assertJavaDistribution(dir string, goos string) error {
 	var err error
 	if _, err = os.Stat(path); os.IsNotExist(err) {
 		err = errors.New(path + " wasn't found. " +
-			"If you believe this is an error - please create a ticket at https://github.com/shyiko/jabba/issues " +
+			"If you believe this is an error - please create a ticket at https://github.com/Mythical-Forest-Collective/jabba/issues " +
 			"(specify OS and command that was used)")
 	}
 	return err

@@ -3,8 +3,8 @@ package command
 import (
 	"errors"
 	log "github.com/Sirupsen/logrus"
-	"github.com/shyiko/jabba/cfg"
-	"github.com/shyiko/jabba/semver"
+	"github.com/Mythical-Forest-Collective/jabba/cfg"
+	"github.com/Mythical-Forest-Collective/jabba/semver"
 	"os"
 	"path/filepath"
 	"runtime"
